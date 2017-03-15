@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.initialize(
+            with: ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "Instagram"
+                configuration.clientKey = "sidldkbeski9w7grtt27394tgyciwhu0fs9238rw6f7yqg"  // set to nil assuming you have not set clientKey
+                configuration.server = "https://simstagram.herokuapp.com/parse"
+            })
+        )
+        
+        
+        // check if user is logged in.
+        if PFUser.current() != nil {
+            print("There is a current user")
+            
+            // if there is a logged in user then load the home view controller
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "LoggedInController")
+            
+            window?.rootViewController = vc
+        }
+        
         return true
     }
 

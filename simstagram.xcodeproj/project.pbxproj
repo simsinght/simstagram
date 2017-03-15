@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066183CF5C4214AEF968FD60 /* Pods_simstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D438CA4BA89034949DBCD7 /* Pods_simstagramUITests.framework */; };
+		236FF2761E79557800E7450A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236FF2751E79557800E7450A /* FeedViewController.swift */; };
+		236FF2791E79585C00E7450A /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236FF2781E79585C00E7450A /* feedCell.swift */; };
+		236FF27B1E79654E00E7450A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236FF27A1E79654E00E7450A /* ProfileViewController.swift */; };
 		239EC15C1E77F81B003DB540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239EC15B1E77F81B003DB540 /* AppDelegate.swift */; };
 		239EC15E1E77F81B003DB540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239EC15D1E77F81B003DB540 /* ViewController.swift */; };
 		239EC1611E77F81B003DB540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239EC15F1E77F81B003DB540 /* Main.storyboard */; };
@@ -14,6 +18,11 @@
 		239EC1661E77F81B003DB540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239EC1641E77F81B003DB540 /* LaunchScreen.storyboard */; };
 		239EC1711E77F81B003DB540 /* simstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239EC1701E77F81B003DB540 /* simstagramTests.swift */; };
 		239EC17C1E77F81B003DB540 /* simstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239EC17B1E77F81B003DB540 /* simstagramUITests.swift */; };
+		23AB440B1E77FD35006A59F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB440A1E77FD35006A59F6 /* LoginViewController.swift */; };
+		23E6E4D91E781687007D948F /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E4D81E781687007D948F /* CaptureViewController.swift */; };
+		23E6E4DB1E782DF1007D948F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E4DA1E782DF1007D948F /* Post.swift */; };
+		24D7FD3D615B79824192F374 /* Pods_simstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62BC45E2FB53B9A0C4EA97F /* Pods_simstagramTests.framework */; };
+		AA9E1A37BBE661278622B4A9 /* Pods_simstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B833E60ABAB45BF738E57CEA /* Pods_simstagram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BE536C5DCFB6A9DE0933A34 /* Pods-simstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simstagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-simstagramTests/Pods-simstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		236FF2751E79557800E7450A /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		236FF2781E79585C00E7450A /* feedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		236FF27A1E79654E00E7450A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		239EC1581E77F81B003DB540 /* simstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239EC15B1E77F81B003DB540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		239EC15D1E77F81B003DB540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		239EC1771E77F81B003DB540 /* simstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		239EC17B1E77F81B003DB540 /* simstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simstagramUITests.swift; sourceTree = "<group>"; };
 		239EC17D1E77F81B003DB540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AB440A1E77FD35006A59F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		23E6E4D81E781687007D948F /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		23E6E4DA1E782DF1007D948F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6270FF4E607076149204BB70 /* Pods-simstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-simstagram/Pods-simstagram.release.xcconfig"; sourceTree = "<group>"; };
+		637BB72F58FB81EB8C69F4C7 /* Pods-simstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simstagramTests/Pods-simstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93D438CA4BA89034949DBCD7 /* Pods_simstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53DC4090AD6722924899B22 /* Pods-simstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simstagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-simstagramUITests/Pods-simstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A804A4887D6787241E952145 /* Pods-simstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simstagram/Pods-simstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		B62BC45E2FB53B9A0C4EA97F /* Pods_simstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B833E60ABAB45BF738E57CEA /* Pods_simstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E904F2B952F70ACF7F27E3D4 /* Pods-simstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simstagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simstagramUITests/Pods-simstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9E1A37BBE661278622B4A9 /* Pods_simstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D7FD3D615B79824192F374 /* Pods_simstagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066183CF5C4214AEF968FD60 /* Pods_simstagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236FF2771E79583F00E7450A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				236FF2781E79585C00E7450A /* feedCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		239EC14F1E77F81A003DB540 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				239EC16F1E77F81B003DB540 /* simstagramTests */,
 				239EC17A1E77F81B003DB540 /* simstagramUITests */,
 				239EC1591E77F81B003DB540 /* Products */,
+				9021A02D91ECB462837A9CFB /* Pods */,
+				DD40E994DDA3145A93865074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +134,15 @@
 		239EC15A1E77F81B003DB540 /* simstagram */ = {
 			isa = PBXGroup;
 			children = (
+				236FF2771E79583F00E7450A /* Views */,
+				23AB440C1E77FD41006A59F6 /* View Controllers */,
 				239EC15B1E77F81B003DB540 /* AppDelegate.swift */,
 				239EC15D1E77F81B003DB540 /* ViewController.swift */,
 				239EC15F1E77F81B003DB540 /* Main.storyboard */,
 				239EC1621E77F81B003DB540 /* Assets.xcassets */,
 				239EC1641E77F81B003DB540 /* LaunchScreen.storyboard */,
 				239EC1671E77F81B003DB540 /* Info.plist */,
+				23E6E4DA1E782DF1007D948F /* Post.swift */,
 			);
 			path = simstagram;
 			sourceTree = "<group>";
@@ -125,6 +165,40 @@
 			path = simstagramUITests;
 			sourceTree = "<group>";
 		};
+		23AB440C1E77FD41006A59F6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23AB440A1E77FD35006A59F6 /* LoginViewController.swift */,
+				23E6E4D81E781687007D948F /* CaptureViewController.swift */,
+				236FF2751E79557800E7450A /* FeedViewController.swift */,
+				236FF27A1E79654E00E7450A /* ProfileViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9021A02D91ECB462837A9CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A804A4887D6787241E952145 /* Pods-simstagram.debug.xcconfig */,
+				6270FF4E607076149204BB70 /* Pods-simstagram.release.xcconfig */,
+				637BB72F58FB81EB8C69F4C7 /* Pods-simstagramTests.debug.xcconfig */,
+				0BE536C5DCFB6A9DE0933A34 /* Pods-simstagramTests.release.xcconfig */,
+				E904F2B952F70ACF7F27E3D4 /* Pods-simstagramUITests.debug.xcconfig */,
+				A53DC4090AD6722924899B22 /* Pods-simstagramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD40E994DDA3145A93865074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B833E60ABAB45BF738E57CEA /* Pods_simstagram.framework */,
+				B62BC45E2FB53B9A0C4EA97F /* Pods_simstagramTests.framework */,
+				93D438CA4BA89034949DBCD7 /* Pods_simstagramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 239EC1801E77F81B003DB540 /* Build configuration list for PBXNativeTarget "simstagram" */;
 			buildPhases = (
+				E1E4272E8928A8391F0FC22A /* [CP] Check Pods Manifest.lock */,
 				239EC1541E77F81A003DB540 /* Sources */,
 				239EC1551E77F81A003DB540 /* Frameworks */,
 				239EC1561E77F81A003DB540 /* Resources */,
+				C3A3C237992372C0A5A9B138 /* [CP] Embed Pods Frameworks */,
+				F9D62C5CE9991A32F10E4B4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 239EC1831E77F81B003DB540 /* Build configuration list for PBXNativeTarget "simstagramTests" */;
 			buildPhases = (
+				A0C83670B7DC1C81875437E9 /* [CP] Check Pods Manifest.lock */,
 				239EC1681E77F81B003DB540 /* Sources */,
 				239EC1691E77F81B003DB540 /* Frameworks */,
 				239EC16A1E77F81B003DB540 /* Resources */,
+				51146A6283825E4480700264 /* [CP] Embed Pods Frameworks */,
+				EEE3F7DC2645FFE45B1EFF21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 239EC1861E77F81B003DB540 /* Build configuration list for PBXNativeTarget "simstagramUITests" */;
 			buildPhases = (
+				B3137659CFB92FCDC3C3A3A7 /* [CP] Check Pods Manifest.lock */,
 				239EC1731E77F81B003DB540 /* Sources */,
 				239EC1741E77F81B003DB540 /* Frameworks */,
 				239EC1751E77F81B003DB540 /* Resources */,
+				FC26AAF71E36FBB099366BD1 /* [CP] Embed Pods Frameworks */,
+				44DA149834D54FE71B709D5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +276,7 @@
 				TargetAttributes = {
 					239EC1571E77F81A003DB540 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LN34TEFAT5;
 						ProvisioningStyle = Automatic;
 					};
 					239EC16B1E77F81B003DB540 = {
@@ -254,13 +338,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44DA149834D54FE71B709D5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simstagramUITests/Pods-simstagramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51146A6283825E4480700264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simstagramTests/Pods-simstagramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C83670B7DC1C81875437E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3137659CFB92FCDC3C3A3A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A3C237992372C0A5A9B138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simstagram/Pods-simstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E4272E8928A8391F0FC22A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE3F7DC2645FFE45B1EFF21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simstagramTests/Pods-simstagramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D62C5CE9991A32F10E4B4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simstagram/Pods-simstagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC26AAF71E36FBB099366BD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simstagramUITests/Pods-simstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		239EC1541E77F81A003DB540 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AB440B1E77FD35006A59F6 /* LoginViewController.swift in Sources */,
+				236FF2791E79585C00E7450A /* feedCell.swift in Sources */,
+				23E6E4D91E781687007D948F /* CaptureViewController.swift in Sources */,
 				239EC15E1E77F81B003DB540 /* ViewController.swift in Sources */,
 				239EC15C1E77F81B003DB540 /* AppDelegate.swift in Sources */,
+				236FF2761E79557800E7450A /* FeedViewController.swift in Sources */,
+				236FF27B1E79654E00E7450A /* ProfileViewController.swift in Sources */,
+				23E6E4DB1E782DF1007D948F /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +636,12 @@
 		};
 		239EC1811E77F81B003DB540 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A804A4887D6787241E952145 /* Pods-simstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LN34TEFAT5;
 				INFOPLIST_FILE = simstagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sim.simstagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +651,12 @@
 		};
 		239EC1821E77F81B003DB540 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6270FF4E607076149204BB70 /* Pods-simstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LN34TEFAT5;
 				INFOPLIST_FILE = simstagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sim.simstagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +666,7 @@
 		};
 		239EC1841E77F81B003DB540 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637BB72F58FB81EB8C69F4C7 /* Pods-simstagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +681,7 @@
 		};
 		239EC1851E77F81B003DB540 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE536C5DCFB6A9DE0933A34 /* Pods-simstagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +696,7 @@
 		};
 		239EC1871E77F81B003DB540 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E904F2B952F70ACF7F27E3D4 /* Pods-simstagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = simstagramUITests/Info.plist;
@@ -473,6 +710,7 @@
 		};
 		239EC1881E77F81B003DB540 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53DC4090AD6722924899B22 /* Pods-simstagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = simstagramUITests/Info.plist;
@@ -503,6 +741,7 @@
 				239EC1821E77F81B003DB540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		239EC1831E77F81B003DB540 /* Build configuration list for PBXNativeTarget "simstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +750,7 @@
 				239EC1851E77F81B003DB540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		239EC1861E77F81B003DB540 /* Build configuration list for PBXNativeTarget "simstagramUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +759,7 @@
 				239EC1881E77F81B003DB540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

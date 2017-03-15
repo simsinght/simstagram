@@ -1,0 +1,6 @@
+framework module Pods_simstagramUITests {
+  umbrella header "Pods-simstagramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
